@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include <cstring>
 
 int calculateVariant(const std::string &name, unsigned int numVariants) {
     if (name.empty())
@@ -12,7 +11,6 @@ int calculateVariant(const std::string &name, unsigned int numVariants) {
 }
 
 int main() {
-    
     std::string name;
     unsigned int variants;
 
